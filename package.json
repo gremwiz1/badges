@@ -1,0 +1,27 @@
+{
+  "name": "badges-storybook",
+  "version": "1.0.0",
+  "description": "Vue Badge components for Storybook",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/addon-interactions": "^7.5.3",
+    "@storybook/addon-links": "^7.5.3",
+    "@storybook/blocks": "^7.5.3",
+    "@storybook/test": "^7.5.3",
+    "@storybook/vue3": "^7.5.3",
+    "@storybook/vue3-vite": "^7.5.3",
+    "@vitejs/plugin-vue": "^4.3.4",
+    "storybook": "^7.5.3",
+    "vite": "^4.4.9"
+  }
+}
